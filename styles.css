@@ -1,0 +1,357 @@
+body {
+    font-size: 12px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* navigation styles */
+
+.navigation {
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    padding: 0px 72px;
+}
+
+/* .navigation a {
+    color: rgba(214, 214, 214, 1);
+    text-decoration: none;
+    font-size: 4px;
+    margin-right: 18px;
+    font-weight: 300;
+} */
+
+
+.apple-logo-one {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(214, 214, 214, 1);
+    text-decoration: none;
+    font-size: 2px;
+    font-weight: 300;
+    width:50px;
+    /* text-size-adjust: 100%; */
+}
+
+.fa-search {
+    color: rgba(214, 214, 214, 1);
+    font-size: 3px;
+    font-weight: 100;
+    margin-right: 15px;
+
+}
+
+.fa-shopping-bag {
+    color: rgba(214, 214, 214, 1);
+    font-size: 8px;
+}
+
+.message-one, .message-two {
+    background-color: #f5f5f7;
+    font-size: 8px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 42px;
+    padding-left: 42px;
+}
+
+.blue-text {
+    color: #06c;
+}
+
+.featured_one {
+    background-image: url("./images/feature-one.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.feature-one-header, .feature-two-header {
+    font-size: 34px;
+    margin: 0px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.feature-one-subheader, .feature-two-subheader {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.featured_one a, .featured_two a, .featured_three a, .square-one a, .square-two a, .square-three a, .square-four a, .square-five a{
+    text-decoration: none;
+    color: #06c;
+    margin-right: 12px;
+}
+
+.featured_two {
+    background-image: url("./images/feature-two.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.feature-two-header {
+    color: white;
+}
+
+.feature-two-subheader {
+    color: #fec2eb;
+    font-size: 15px;
+}
+
+.featured_three {
+
+    background-image: url("./images/apple-card.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-three-header {
+    width: 110px;
+    font-size: 25px;
+    background: linear-gradient(to right, #F06644, #C0639D, #6782BE);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 5px;
+
+}
+
+.feature-three-subheader {
+    font-size: 1.3em;
+    font-weight: 300;
+    width: 270px;
+    margin: 0px;
+}
+
+.sub-sub-header {
+    color: #828282;
+    font-size: 9px;
+}
+
+/* Squares section */
+
+.square-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    border-left: 7px solid white;
+}
+
+.square {
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+    height: 325px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+/* Square One */
+
+.square-one {
+    background-image: url("./images/apple-watch.jpeg");
+}
+
+.watch-new {
+    color: #cc2126;
+    font-size: 3px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.fa-apple {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.largest-display {
+    color: #df41a2;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.square-one a {
+    color: white;
+    font-size: 10px;
+}
+
+.series-seven {
+    color: #cc2126;
+    font-size: 0.8em;
+}
+
+/* Square two */
+
+.square-two {
+    background-image: url("./images/square-two.jpeg");
+}
+
+.square-two a {
+    color: white;
+}
+
+.square-two-heading-one {
+    font-size: 1.6em;
+    margin: 15px 0px 0px 0px;
+}
+
+.square-two-heading-two {
+    font-size: 1.6em;
+    margin: 0px;
+}
+
+.square-two-heading-three {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+/* Square three */
+
+.square-three {
+    background-image: url("./images/square-three.jpeg");
+}
+
+.valentines {
+    color: #5f2d61;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.square-three-heading {
+    color: #5f2d61;
+    font-weight: 500;
+    font-size: 1.6em;
+    margin: 0px;
+}
+
+.square-three-heading-two{
+    color: #5f2d61;
+    font-weight: 500;
+    font-size: 1.6em;
+    margin: 0px 0px 5px 0px;
+}
+
+/* Square four */
+
+.square-four {
+    background-image: url("./images/watch-two.PNG");
+}
+
+.square-four-heading {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.square-four-heading-two {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.square-four-heading-three {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+
+.square-four a {
+    color: #c846cd;
+    font-weight: 400;
+    font-size: 9px;
+}
+
+/* Square five */
+
+.square-five {
+    color: white;
+    background-image: url("./images/fitness+.jpeg");
+}
+
+.square-five a {
+    color: rgb(61, 133, 205);
+    font-size: 9px;
+}
+
+.square-five-heading {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.square-five-heading-two {
+    font-weight: 200;
+    margin: 0px;
+}
+
+.square-five-heading-three {
+    font-weight: 200;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.square-six {
+    background-image: url("./images/apple-tv.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apple-tv {
+    color: white;
+    font-size: 1.6em;
+}
+
+.square-six a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f7;
+    text-align: center;
+    font-size: 6px;
+    color: rgb(154, 153, 153);
+    height: 100px;
+}
